@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.darkBackground {
+  height: 600px;
+  background-color: #1f2937;
+}
