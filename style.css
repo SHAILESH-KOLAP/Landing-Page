@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   color: white;
+  font-family: roboto;
 }
 
 .darkBackground {
-  height: 600px;
+  height: 500px;
   background-color: #1f2937;
   display: flex;
   flex-direction: column;
@@ -14,14 +15,14 @@
 .hero {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 70%;
 }
 .hero-logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
-  margin: 15px;
-  padding: 20px;
+  text-align: left;
+  padding: 25px 0;
 }
 .hero-links {
   display: flex;
@@ -29,6 +30,38 @@
   color: #e5e7eb;
   list-style: none;
   gap: 18px;
-  margin: 15px;
-  padding: 20px;
+  padding: 25px 0;
+}
+
+.hero-main {
+  display: flex;
+  width: 70%;
+  gap: 35px;
+  justify-content: space-between;
+  padding: 25px 0;
+  margin: 20px 0;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 800;
+  max-width: 400px;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  max-width: 400px;
+}
+
+.main-img img {
+  width: 500px;
+  height: 300px;
+}
+
+.hero-main button {
+  background-color: #3882f6;
+  padding: 10px 50px;
+  border-radius: 10px;
+  margin: 20px 0px;
 }
