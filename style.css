@@ -101,3 +101,29 @@
   color: #1f2937;
   text-align: center;
 }
+
+.quote {
+  height: 400px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+}
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+  align-self: flex-end;
+}
