@@ -128,3 +128,31 @@
   color: #1f2937;
   align-self: flex-end;
 }
+.bottom-signup {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action {
+  height: 150px;
+  width: 80%;
+  background-color: #3882f6;
+  border-radius: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.call-to-action .heading {
+  font-size: 24px;
+}
+.call-to-action button {
+  padding: 5px 30px;
+  background: none;
+  border-radius: 5px;
+  border: 2px solid;
+  font-size: 18px;
+}
